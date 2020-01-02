@@ -3,6 +3,17 @@
   justify-content: space-between;
 }
 
+.user-page {
+  height: 100%;
+  width: 100%;
+}
+
 .user {
   display: flex;
+}
+
+.welcome {
+  height: 30%;
+  width: 100%;
+  background: #286091;
 }
