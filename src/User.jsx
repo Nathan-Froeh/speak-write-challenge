@@ -42,12 +42,12 @@ export default function User() {
         </Typography>
       </Box>
       <Grid 
-      container
-      spacing={0}
-      direction="column"
-      alignItems="center"
-      alignContent="center"
-      justify="center"
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        alignContent="center"
+        justify="center"
       >
         <Box>
           <Typography component='h2'>
