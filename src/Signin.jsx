@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Signin.css';
 import { ThemeProvider } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
@@ -57,9 +56,6 @@ class Signin extends Component {
       <div className='logo-box'>
         <p className='logo'>SpeakWrite Logo</p>
       </div>
-      <Typography component="h1" variant="h5">
-        Sign in
-      </Typography>
       <form className={classes.form} noValidate>
           <TextField
             variant="outlined"
