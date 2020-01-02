@@ -27,6 +27,8 @@ class Signin extends Component {
   handleSignin = (e) => {
     e.preventDefault()
     console.log(this.state.username)
+    localStorage.setItem('username', this.state.username);
+    window.location.href = "/user";
   }
 
   render() {
@@ -52,8 +54,8 @@ class Signin extends Component {
   return (
     <div className="Sign-in">
       <ThemeProvider theme={theme}>
-      <div className='logo'>
-        <p>SpeakWrite Logo</p>
+      <div className='logo-box'>
+        <p className='logo'>SpeakWrite Logo</p>
       </div>
       <Typography component="h1" variant="h5">
         Sign in

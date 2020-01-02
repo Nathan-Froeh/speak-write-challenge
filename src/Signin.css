@@ -5,7 +5,7 @@
   flex-wrap: wrap;
 }
 
-.logo {
+.logo-box {
   height: 60px;
   width: 100%;
   background: #282828;
@@ -14,8 +14,9 @@
   padding-left: 15px;
 }
 
-p {
+.logo {
   color: white;
+  display: inline-block;
 }
 
 form {
